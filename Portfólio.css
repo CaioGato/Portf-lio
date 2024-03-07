@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    background-color: rgb(216, 216, 216);
+    overflow-x: hidden;
+}
+
+header{
+    font-family: Montserrat;
+    background-image: url("https://img.freepik.com/vetores-premium/preto-escuro-abstrato-plano-arte-de-rua-urbana-estilo-graffiti-ilustracao-vetorial-modelo-de-fundo_214056-1249.jpg");
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+section {
+    color:rgb(36, 17, 20);
+    flex-basis: 60%;
+    margin: 10px;
+    text-align: center; 
+}
+
+.titulo {
+    color: #fff;
+    font-weight: 800;
+    transform: translateY(-90%);
+    font-size: 40pt;
+}
+
+.caio h1{
+    transform: translateX(12%);
+    font-family: Montserrat;
+    font-weight: 800;
+    text-align: left;
+    font-size: 55pt;
+}
+
+.linha {
+    background-color: black;
+}
+h2{
+    font-size: 20pt;
+    width: 70%;
+    text-align: left;
+    transform: translate(15%, -20%);
+    font-weight: 400;
+}
+.print {
+
+    display: flex; 
+    mix-blend-mode: multiply; 
+}
+.print2 {
+    transform: translate(-10%, -0%);
+    justify-content: center;
+    mix-blend-mode: multiply; 
+}
+
+.print1{
+    transform: translate(-20%, 0%);
+}
+
+.text {
+    margin: 115px;
+}
+
+.Apresentaçao {
+    transform: translateY(-60%);
+    cursor: pointer;
+    font-weight: 300;
+    gap: 25px;
+    display: flex;
+    justify-content: end;
+    color: white;
+}
+.Apresentaçao u {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Apresentaçao p {
+    transition: 0.3s;
+}
+
+.Apresentaçao p:hover {
+    transform: scale(1.1);
+}
